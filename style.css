@@ -1,0 +1,93 @@
+@font-face {
+    font-family: monreg;
+    src: url(fonts/MONTSERRAT-REGULAR.OTF);
+   }
+body{
+	background-color: #fff;
+	margin: 0 auto;
+}
+.first{
+	max-width: 1920px;
+	
+	margin: 30px;
+	height: calc(100vh - 60px);
+	position: relative;
+	overflow: hidden;
+}
+.first__top{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 150px;
+	padding-top: 40px;
+	align-items: center;
+}
+.logo__menu{
+	width: 195px;
+	height: 62px;
+}
+.top__list{
+	margin-left: auto;
+	margin-right: 80px;
+}
+.top__list li{
+	display: inline-block;
+	padding: 0 25px;
+}
+.top__list li:nth-child(2){ 
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.top__list li a{
+	text-decoration: none;
+	color: #000;
+	font-family: monreg;
+	font-size: 15px;
+}
+.top__social li{
+	display: inline-block;
+}
+.top__social img{
+	width: 17px;
+	height: 17px;
+	padding: 7px;
+}
+.video{
+	height: 440px;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.first__cont{
+	text-align: center;
+	margin-top: 600px;
+}
+.first__cont span{
+	display: block;
+	padding-bottom: 15px;
+}
+.first__cont a{
+	text-decoration: none;
+	color: #000;
+	font-family: monreg;
+	font-size: 15px;
+}
+.first__bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 150px;
+	padding-top: 40px;
+	align-items: center;
+	position: absolute;
+	bottom: 30px;
+}
+.first__bottom img{
+	padding-right: 10px;
+}
+.first__bottom span{
+	font-family: monreg;
+	font-size: 12px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
